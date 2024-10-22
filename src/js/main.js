@@ -6,7 +6,7 @@ form.addEventListener("submit", async (e) => {
   e.preventDefault();
   try {
     const response = await axios.post(
-      "http://192.168.1.8:8005/login", // Backend API manzilingizni kiriting
+      "https://just-cookie.onrender.com", // Backend API manzilingizni kiriting
       {
         username: 'test',
         password: 'test'
